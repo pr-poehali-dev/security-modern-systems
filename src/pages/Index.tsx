@@ -359,8 +359,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Email</h4>
-                  <p className="text-muted-foreground">info@ssb-security.ru</p>
-                  <p className="text-muted-foreground">support@ssb-security.ru</p>
+                  <p className="text-muted-foreground">sovsbvrn@mail.ru</p>
                 </div>
               </div>
 
@@ -432,7 +431,7 @@ const Index = () => {
               <h4 className="font-bold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/80">
                 <li>+7 (951) 851-98-65</li>
-                <li>info@ssb-security.ru</li>
+                <li>sovsbvrn@mail.ru</li>
                 <li>г. Москва, ул. Примерная, 10</li>
               </ul>
             </div>
