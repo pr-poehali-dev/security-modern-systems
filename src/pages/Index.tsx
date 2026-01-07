@@ -23,7 +23,12 @@ const Index = () => {
             <a href="#reviews" className="text-primary-foreground hover:text-primary transition-colors">Отзывы</a>
             <a href="#contacts" className="text-primary-foreground hover:text-primary transition-colors">Контакты</a>
           </div>
-          <Button className="bg-accent hover:bg-accent/90">Заказать звонок</Button>
+          <Button 
+            className="bg-accent hover:bg-accent/90"
+            onClick={() => document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Заказать звонок
+          </Button>
         </nav>
       </header>
 
@@ -45,10 +50,19 @@ const Index = () => {
             Профессиональная охрана объектов с применением инновационных технологий и многолетним опытом
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8"
+              onClick={() => document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Получить консультацию
             </Button>
-            <Button size="lg" variant="outline" className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-secondary text-lg px-8">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-secondary text-lg px-8"
+              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Наши услуги
             </Button>
           </div>
