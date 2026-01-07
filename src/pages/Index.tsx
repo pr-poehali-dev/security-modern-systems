@@ -10,8 +10,11 @@ const Index = () => {
       <header className="fixed top-0 w-full bg-secondary/95 backdrop-blur-sm z-50 border-b border-border">
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Icon name="Shield" className="text-primary" size={32} />
-            <span className="text-xl font-bold text-primary-foreground">ССБ</span>
+            <img 
+              src="https://cdn.poehali.dev/files/2026-01-07_14-50-14.png" 
+              alt="ЧОО ССБ" 
+              className="h-12 w-auto"
+            />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-primary-foreground hover:text-primary transition-colors">Услуги</a>
@@ -401,9 +404,12 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Icon name="Shield" className="text-primary" size={32} />
-                <span className="text-xl font-bold">ССБ</span>
+              <div className="mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/2026-01-07_14-50-14.png" 
+                  alt="ЧОО ССБ" 
+                  className="h-16 w-auto"
+                />
               </div>
               <p className="text-primary-foreground/80 text-sm">
                 Современные системы безопасности — ваш надежный партнер в области охранных услуг
